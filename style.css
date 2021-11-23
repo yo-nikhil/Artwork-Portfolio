@@ -1,0 +1,165 @@
+/* Color Pallete 
+#EDEEC9 - Light Yellow
+#DDE7C7 - Slightly Darker Yellow Green
+#BFD8BD - Light Green
+#98C9A3 - Green
+#77BFA3 - Blue Green
+*/
+
+/*///////GLOBAL STYLES///////*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #CADFC9;
+}
+
+main {
+  margin: 0px 100px;
+  background:  #E7F0E7;
+  border: solid 2px;
+  
+}
+
+h1, h2 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+}
+#myname {
+    font-size: 60px;
+    padding: 20px 0px;
+    text-align: center;
+    background: #AEC5AC;
+  
+}
+
+
+h2 {
+    font-size: 20px;
+}
+
+h3, p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+a {
+    color: #EDF2F4;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #77BFA3;
+}
+
+/*/////BOOTSTRAP OVERRIDE/////*/
+
+
+
+/*//////NAVIGATION/////*/
+nav {
+    text-align: center;
+    background: #282D42;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*///////HEADER AND FOOTER///////*/
+
+
+
+/*/////HEADER//////*/
+header {
+    padding-top: 50px;
+    position: relative;
+    background: #E7F0E7;
+    margin: 0px 100px;
+    
+}
+
+.prof-img {
+  padding: 35px 50px 50px;
+  margin: 0px 100px;
+  float:left;
+  
+}
+
+.intro-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: right;
+  padding-left: 50px;
+}
+
+/*////FOOTER////*/
+footer {
+    text-align: center;
+    padding-top: 20px;
+    background: #282D42;
+    color: #EDF2F4;
+    width: auto;
+    margin: auto;
+}
+
+.contact-info a {
+        padding: 10px;
+        display: inline-block;
+}
+
+
+
+/*/////MEDIA QUERIES////*/
+@media (min-width: 900px) {
+    .col-narrow {
+    width: 30%;
+    float: left;
+  }
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+ }
+}
+
+/* #imgg{
+  position: absolute;
+  top: 300px;
+  left: 800px;
+} */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column0 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.hello {
+  margin:auto;
+  width: 30em;
+  display:inline-block;
+  vertical-align: top;
+}
+.more{
+  background-color: black;
+  color:white;
+}
